@@ -2,13 +2,13 @@ package com.treehouse.gifhub.model;
 
 import java.time.LocalDate;
 
-public class gif {
+public class Gif {
     private String name;
     private LocalDate dateUploaded;
     private String username;
     private boolean favorite;
 
-    public gif(String name, LocalDate dateUploaded, String username, boolean favorite) {
+    public Gif(String name, LocalDate dateUploaded, String username, boolean favorite) {
         this.name = name;
         this.dateUploaded = dateUploaded;
         this.username = username;
